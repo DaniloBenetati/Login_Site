@@ -1,0 +1,98 @@
+*{ /* retira espaço da parte de cima e baixo*/
+	margin:0px;
+	padding: 0px;
+} 
+
+body{
+	background-image: url("../IMAGENS/mountain.jpg");
+	background-position: 50% 50% ;
+	color: white;
+	font-family: arial;
+}
+
+input{
+	display: block; /* deixa um envima do outro*/
+	height: 55px; /*altura*/
+	width: 400px; /*largura*/
+	margin:10px; /* margem entre os inputs*/
+	border-radius: 40px; /*borda arredondada*/
+	border:1px solid white; /*borda solida na cor preta*/
+	font-size: 16pt; /*tamanho da letra*/
+	padding: 10px 20px; /*espaço dentro dos inputs*/
+	background-color: rgba(255,255,255,0.01);  /*deixando os inputs quase transparentes*/
+	color: white; /*alterando a cor da letra do botão*/
+	outline: none; /*retirando o contorno azul*/
+}
+
+div#corpo-form{ 
+	/*background-color: red;*/ /*altera a cor de fundo do formulario*/
+	width: 420px;
+	margin:150px auto 0px auto;
+}
+
+div#corpo-form-cad{ 
+	/*background-color: red;*/ /*altera a cor de fundo do formulario*/
+	width: 420px;
+	margin:100px auto 1px auto;
+}
+
+div#corpo-form h1, div#corpo-form-cad h1{
+	text-align: center; /* centralizando o titulo*/
+	padding: 20px; /*espaçando o titulo*/
+}
+
+a{
+	color: white; /*alterando a cor para branca*/
+	text-decoration: none; /*retirando o "_" que vem por padrão*/
+	text-align: center; /*Centralizando o texto*/
+	display: block; /* deixa um encima do outro*/
+}
+
+a:hover{
+	text-decoration: underline; /*Mostrando o "_" quando passar o mouse encima*/
+}
+
+input[type=submit]{
+	background-color: #FF0066; /*definindo a cor vermelha para o botão acessar*/
+	border:none; /*retirando a borda preta do botão acessar*/
+	cursor: pointer; /*desenho da mão sobre o botão*/	
+}
+
+::-webkit-input-placeholder { /*alterando a cor do placeholder para branco em varios browsers*/
+	color: #fff;
+}
+
+::-moz-placeholder { /*alterando a cor do placeholder para branco em varios browsers*/
+	color: #fff;
+}
+
+::-moz-placeholder { /*alterando a cor do placeholder para branco em varios browsers*/
+	color: #fff;
+}
+
+::-ms-input-placeholder { /*alterando a cor do placeholder para branco em varios browsers*/
+	color: #fff;
+}
+
+div#msg-sucesso{
+	width: 380px;
+	margin: 15px auto;
+	padding: 10px;
+	background-color: rgba(34,139,34);
+	border: 1px solid rgb(34,139,34);
+	border-radius: 40px;
+	text-align: center;
+
+
+}
+
+div.msg-erro{
+	width: 380px;
+	margin: 15px auto;
+	padding: 10px;
+	background-color: rgba(139,0,0);
+	border: 1px solid rgb(165,42,42);
+	border-radius: 40px;
+	text-align: center;
+
+}
